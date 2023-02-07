@@ -7,10 +7,14 @@
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@tsconfig/esm": "^1.0.3",
+    "@tsconfig/node18": "^2.0.0",
+    "@tsconfig/strictest": "^2.0.1",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
-    "prettier-plugin-packagejson": "^2.4.3"
+    "prettier-plugin-packagejson": "^2.4.3",
+    "typescript": "^5.0.4"
   },
   "engines": {
     "node": ">= 18"
