@@ -1,0 +1,9 @@
+{
+  "name": "my-project",
+  "private": true,
+  "description": "My project.",
+  "type": "module",
+  "engines": {
+    "node": ">= 18"
+  }
+}
