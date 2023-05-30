@@ -1,6 +1,8 @@
-import { expect, test } from "@jest/globals";
+import { describe, expect, it } from "@jest/globals";
 import { myProject } from "./index";
 
-test("My project", () => {
-  expect(myProject).toBe("My project");
+describe("my project", () => {
+  it("works", () => {
+    expect(myProject).toBe("My project");
+  });
 });
