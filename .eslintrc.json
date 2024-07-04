@@ -14,18 +14,9 @@
     "plugin:@typescript-eslint/strict",
     "plugin:import/recommended",
     "plugin:import/typescript",
-    "plugin:jest/all",
     "plugin:prettier/recommended"
   ],
   "rules": {
-    "@typescript-eslint/explicit-member-accessibility": "error",
-    "jest/prefer-expect-assertions": [
-      "warn",
-      {
-        "onlyFunctionsWithAsyncKeyword": true,
-        "onlyFunctionsWithExpectInLoop": true,
-        "onlyFunctionsWithExpectInCallback": true
-      }
-    ]
+    "@typescript-eslint/explicit-member-accessibility": "error"
   }
 }

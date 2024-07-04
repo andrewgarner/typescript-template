@@ -1,8 +1,8 @@
 {
   "*.{js,jsx,mjs,cjs,ts,tsx,mts,cts}": [
     "pnpm eslint --cache --fix",
-    "pnpm jest --findRelatedTests",
-    "pnpm tsc --noEmit"
+    "pnpm vitest related --run --passWithNoTests",
+    "pnpm tsc --noEmit --skipLibCheck"
   ],
   "**/*": "pnpm prettier --write --ignore-unknown"
 }

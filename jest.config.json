@@ -1,4 +1,0 @@
-{
-  "collectCoverage": true,
-  "preset": "ts-jest/presets/default-esm"
-}
