@@ -1,8 +1,0 @@
-{
-  "*.{js,jsx,mjs,cjs,ts,tsx,mts,cts}": [
-    "pnpm eslint --cache --fix",
-    "pnpm vitest related --run --passWithNoTests",
-    "pnpm tsc --noEmit --skipLibCheck"
-  ],
-  "**/*": "pnpm prettier --write --ignore-unknown"
-}

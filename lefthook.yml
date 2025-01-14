@@ -1,0 +1,17 @@
+output: false
+
+pre-commit:
+  commands:
+    eslint:
+      glob: "*.{js,cjs,mjs,ts}"
+      run: pnpm eslint --fix {staged_files}
+      stage_fixed: true
+    prettier:
+      run: pnpm prettier --write --ignore-unknown {staged_files}
+      stage_fixed: true
+
+pre-push:
+  commands:
+    test:
+      glob: "*.{js,cjs,mjs,ts}"
+      run: pnpm vitest related --run --passWithNoTests
